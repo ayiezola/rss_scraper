@@ -26,5 +26,5 @@ for entry in feed.entries:
 
 # Send links to Telegram channel using curl
 for link in links:
-    message = f"{link['title']}\n{link['link']}\nLatest post 1 hours ago"
+    message = f"{link['title']}\n{link['link']}\n\nScraped - 1 hours ago"
     subprocess.run(['curl', '-d', f'chat_id={channel_id}', '-d', f'text={message}', f'https://api.telegram.org/bot{bot_token}/sendMessage'])
