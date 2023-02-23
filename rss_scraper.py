@@ -15,8 +15,8 @@ feed_urls = ['https://www.malaysiakini.com/rss/en/news.rss',
 # https://blog.feedspot.com/malaysian_news_rss_feeds/ # Link rss sini
 
 # Telegram channel ID and bot token
-channel_id = 'chat id'
-bot_token = 'token id'
+channel_id = 'Chat ID'
+bot_token = 'Chat ID'
 
 # Time threshold for filtering links
 time_threshold = time.time() - (1 * 3600) # 1 hours ago
